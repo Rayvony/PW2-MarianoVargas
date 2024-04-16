@@ -21,7 +21,6 @@ if(isset($_GET["numero"])){
     _incrementar();
 }
 
-_incrementar();
 function _incrementar(){
     $resultado = $_GET["numero"]+1;
     echo $resultado;
