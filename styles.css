@@ -34,6 +34,10 @@ nav ul li:not(:last-child):after {
   margin: 0 5px;
 }
 
+a.active {
+  color: #6a07c7;
+}
+
 form {
   font-size: 15px;
 }
