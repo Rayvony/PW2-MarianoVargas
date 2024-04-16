@@ -1,0 +1,53 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li:not(:last-child):after {
+  content: "|";
+  margin: 0 5px;
+}
+
+form {
+  font-size: 15px;
+}
+
+iframe {
+  margin: 2% 0 2%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer {
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
