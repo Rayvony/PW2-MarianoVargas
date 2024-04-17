@@ -24,29 +24,33 @@
 error_reporting(0);
 if ($_GET["metodo"] == 1) {
     _colorA();
-}elseif ($_GET["metodo"] == 2){
+} elseif ($_GET["metodo"] == 2) {
     _colorB();
-}elseif ($_GET["metodo"] == 3){
+} elseif ($_GET["metodo"] == 3) {
     _colorC();
 }
 
-function _colorA() {
-    if ($_GET["color"] == "rojo"){
+function _colorA()
+{
+    if ($_GET["color"] == "rojo") {
         echo "Frena Maestro!";
-    } elseif ($_GET["color"] == "amarillo"){
+    } elseif ($_GET["color"] == "amarillo") {
         echo "Precaucion";
-    } elseif ($_GET["color"] == "verde"){
+    } elseif ($_GET["color"] == "verde") {
         echo "Movete Pibe";
-    } else{ echo "Estado desconocido";
+    } else {
+        echo "Estado desconocido";
     }
 }
 
-function _colorB() {
+function _colorB()
+{
     $resultado = ($_GET["color"] == "rojo") ? "Frene" : (($_GET["color"] == "amarillo") ? "Precaucion" : (($_GET["color"] == "verde") ? "Movete" : "Estado Desconocido"));
     echo $resultado;
 }
 
-function _colorC() {
+function _colorC()
+{
     switch ($_GET["color"]) {
         case "rojo":
             echo "Frena Pa!";

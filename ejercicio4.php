@@ -15,14 +15,14 @@
 <?php
 error_reporting(0);
 
-if(isset($_GET["numero"])){
+if(isset($_GET["numero"])) {
     _incrementar();
 }
 
-function _incrementar(){
-    $resultado = $_GET["numero"]+1;
+function _incrementar()
+{
+    $resultado = $_GET["numero"] + 1;
     echo $resultado;
 }
 
 include('footer.php');
-

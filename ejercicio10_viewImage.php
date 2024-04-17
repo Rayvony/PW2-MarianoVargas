@@ -1,12 +1,13 @@
 <?php include('header.php'); ?>
 <!DOCTYPE html>
-    <body>
-        <h1>Ejercicio 10: Insta-reciclado</h1>
 
-        <?php
+<body>
+    <h1>Ejercicio 10: Insta-reciclado</h1>
+
+    <?php
         if (isset($_GET['image'])) {
             $image_name = $_GET['image'];
-            $image_path = "imagenes/" . $image_name;
+            $image_path = "images/" . $image_name;
             if (file_exists($image_path)) {
                 echo '<div class="container_instaimg">';
                 echo '<p class="image_name">' . $image_name . '</p>';
@@ -18,7 +19,8 @@
         } else {
             echo '<p>No se ha especificado ninguna imagen.</p>';
         }
-        ?>
-    </body>
+?>
+</body>
+
 </html>
 <?php include('footer.php'); ?>

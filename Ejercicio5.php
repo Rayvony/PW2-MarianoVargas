@@ -39,13 +39,14 @@ $miVector = array($_GET["numero1"], $_GET["numero2"], $_GET["numero3"],$_GET["nu
 if ($_GET["metodo"] == 1) {
 
     _sumatoriaFor($miVector);
-}elseif ($_GET["metodo"] == 2){
+} elseif ($_GET["metodo"] == 2) {
     _sumatoriaForEach($miVector);
-}elseif ($_GET["metodo"] == 3){
+} elseif ($_GET["metodo"] == 3) {
     _sumatoriaWhile($miVector);
 }
 
-function _sumatoriaForEach($vector) {
+function _sumatoriaForEach($vector)
+{
     $suma = 0;
     foreach ($vector as $valor) {
         $suma += $valor;
@@ -53,7 +54,8 @@ function _sumatoriaForEach($vector) {
     echo "La suma de los valores es: " . $suma;
 }
 
-function _sumatoriaFor($vector) {
+function _sumatoriaFor($vector)
+{
     $suma = 0;
 
     for ($i = 0; $i < count($vector); $i++) {

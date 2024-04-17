@@ -41,26 +41,31 @@ if (isset($_GET["nombre"]) && isset($_GET["apellido"]) && isset($_GET["horario"]
     }
 }
 
-class Saludar {
+class Saludar
+{
     private $nombre;
     private $apellido;
 
-    public function __construct($nombre, $apellido) {
+    public function __construct($nombre, $apellido)
+    {
         $this->nombre = $nombre;
         $this->apellido = $apellido;
     }
 
-    public function saludoFormal($horario) {
+    public function saludoFormal($horario)
+    {
         $saludo = $this->determinarSaludo($horario);
         return $saludo . ' ' . $this->nombre . ' ' . $this->apellido;
     }
 
-    public function saludoInformal($horario) {
+    public function saludoInformal($horario)
+    {
         $saludo = $this->determinarSaludo($horario);
         return '¡Hola ' . $this->nombre . '! Que tengas un ' . $saludo;
     }
 
-    private function determinarSaludo($horario) {
+    private function determinarSaludo($horario)
+    {
         $hora = intval($horario);
         if ($hora >= 5 && $hora < 13) {
             return 'Buenos días';

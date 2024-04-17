@@ -19,9 +19,12 @@
 </html>
 <?php
 
-if(isset($_GET["texto1"]) && isset($_GET["texto2"])){
+if(isset($_GET["texto1"]) && isset($_GET["texto2"])) {
     _concatenar();
 }
-function _concatenar(){echo $_GET["texto1"] . " " . $_GET["texto2"];}
+function _concatenar()
+{
+    echo $_GET["texto1"] . " " . $_GET["texto2"];
+}
 
 include('footer.php');

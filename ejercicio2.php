@@ -24,15 +24,17 @@
 error_reporting(0);
 if ($_GET["metodo"] == 1) {
     _binomioCuadradoPerfecto_a();
-}elseif ($_GET["metodo"] == 2){
+} elseif ($_GET["metodo"] == 2) {
     _binomioCuadradoPerfecto_b();
 }
 
-function _binomioCuadradoPerfecto_a(){
-    echo pow(($_GET["numero1"]+$_GET["numero2"]),2);
+function _binomioCuadradoPerfecto_a()
+{
+    echo pow(($_GET["numero1"] + $_GET["numero2"]), 2);
 }
 
-function _binomioCuadradoPerfecto_b(){
-    echo (pow($_GET["numero1"],2) +pow($_GET["numero1"],2) + (2*$_GET["numero1"]*$_GET["numero2"]));
+function _binomioCuadradoPerfecto_b()
+{
+    echo(pow($_GET["numero1"], 2) + pow($_GET["numero1"], 2) + (2 * $_GET["numero1"] * $_GET["numero2"]));
 }
 include('footer.php');
