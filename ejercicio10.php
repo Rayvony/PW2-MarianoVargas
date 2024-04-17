@@ -8,7 +8,7 @@
     <h2>Imágenes disponibles:</h2>
     <ul class="ej10_ul">
         <?php
-        $dir = "imagenes/";
+        $dir = "images/";
 $files = scandir($dir);
 foreach ($files as $file) {
     if ($file !== '.' && $file !== '..') {
