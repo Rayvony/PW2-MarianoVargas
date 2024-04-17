@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
 <!DOCTYPE html>
+
 <body>
     <h1>Ejercicio 9 Insta-gramo</h1>
 
@@ -7,7 +8,7 @@
     <h2>Imágenes existentes</h2>
     <div class="image-container">
         <?php
-        $dir = "images/";
+        $dir = "assets/images/";
 $files = scandir($dir);
 foreach ($files as $file) {
     if ($file !== '.' && $file !== '..') {
@@ -33,7 +34,7 @@ foreach ($files as $file) {
         </form>
     </div>
 
-<?php
+    <?php
     // Procesamiento del formulario de carga de imágenes
     if (isset($_POST['submit'])) {
         $new_name = $_POST['new_name']; // Obtener el nuevo nombre de la imagen
@@ -56,6 +57,7 @@ foreach ($files as $file) {
 ?>
 
 </body>
+
 </html>
 
 

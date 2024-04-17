@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h1>Mariano Vargas</h1>
+    <h1 class="titulo">Mariano Vargas</h1>
     <nav>
         <ul>
             <li><a <?php if(basename($_SERVER['PHP_SELF']) == 'index.php') {

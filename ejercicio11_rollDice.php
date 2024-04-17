@@ -16,7 +16,7 @@
             $random_value = rand(1, 6);
             $total_score += $random_value;
             echo '<div class="ej11_bg">';
-            echo '<img class="ej11_dice-image" src="dice/die-' . $random_value . '.png" alt="Dado ' . $random_value . '">';
+            echo '<img class="ej11_dice-image" src="assets/dice/die-' . $random_value . '.png" alt="Dado ' . $random_value . '">';
             echo '</div>';
         }
         echo '</div>';

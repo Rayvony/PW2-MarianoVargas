@@ -11,6 +11,11 @@ h2 {
   font-size: 18px;
 }
 
+.titulo {
+  font-size: 40px;
+  color: #880b62;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -70,6 +75,22 @@ footer {
   display: flex;
   justify-content: center;
   gap: 30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.footer-img {
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.footer-img:hover {
+  transform: scale(1.1);
 }
 
 .center {

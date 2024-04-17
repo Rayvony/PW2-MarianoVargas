@@ -7,7 +7,7 @@
     <?php
         if (isset($_GET['image'])) {
             $image_name = $_GET['image'];
-            $image_path = "images/" . $image_name;
+            $image_path = "assets/images/" . $image_name;
             if (file_exists($image_path)) {
                 echo '<div class="container_instaimg">';
                 echo '<p class="image_name">' . $image_name . '</p>';
