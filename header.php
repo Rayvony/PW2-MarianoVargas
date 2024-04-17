@@ -19,5 +19,6 @@
         <li ><a <?php if(basename($_SERVER['PHP_SELF']) == 'ejercicio4.php') echo 'class="active"'; ?> href="ejercicio4.php">Ejercicio 4</a></li>
         <li ><a <?php if(basename($_SERVER['PHP_SELF']) == 'ejercicio5.php') echo 'class="active"'; ?> href="ejercicio5.php">Ejercicio 5</a></li>
         <li ><a <?php if(basename($_SERVER['PHP_SELF']) == 'ejercicio6.php') echo 'class="active"'; ?> href="ejercicio6.php">Ejercicio 6</a></li>
+        <li ><a <?php if(basename($_SERVER['PHP_SELF']) == 'ejercicio9.php') echo 'class="active"'; ?> href="ejercicio9.php">Ejercicio 9</a></li>
     </ul>
 </nav>

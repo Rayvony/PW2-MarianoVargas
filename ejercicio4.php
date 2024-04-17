@@ -26,3 +26,5 @@ function _incrementar(){
     echo $resultado;
 }
 
+include('footer.php');
+

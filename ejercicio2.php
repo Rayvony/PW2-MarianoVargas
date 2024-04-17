@@ -37,3 +37,4 @@ function _binomioCuadradoPerfecto_a(){
 function _binomioCuadradoPerfecto_b(){
     echo (pow($_GET["numero1"],2) +pow($_GET["numero1"],2) + (2*$_GET["numero1"]*$_GET["numero2"]));
 }
+include('footer.php');

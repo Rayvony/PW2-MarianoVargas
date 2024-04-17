@@ -74,5 +74,7 @@ class Saludar {
 }
 ?>
 </body>
+
+<?php include('footer.php'); ?>
 </html>
 

@@ -66,3 +66,4 @@ function _colorC() {
 
 
 ?>
+<?php include('footer.php'); ?>

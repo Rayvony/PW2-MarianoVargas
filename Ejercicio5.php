@@ -74,3 +74,5 @@ function _sumatoriaWhile($vector)
     }
     echo "La suma de los valores es: " . $suma;
 }
+
+include('footer.php');

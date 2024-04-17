@@ -6,13 +6,18 @@ h1 {
   font-size: 20px;
 }
 
+h2 {
+  text-align: center;
+  font-size: 18px;
+}
+
 a {
   text-decoration: none;
   color: black;
 }
 
 a:hover {
-  color: gray;
+  color: #880b62;
 }
 
 nav {
@@ -35,7 +40,7 @@ nav ul li:not(:last-child):after {
 }
 
 a.active {
-  color: #6a07c7;
+  color: #880b62;
 }
 
 form {
@@ -54,4 +59,40 @@ footer {
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+
+/* Instagramo */
+
+.image-container {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.1s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 300;
+  min-width: 300px;
+  height: 300px;
+  border-radius: 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container p {
+  text-align: center;
+  text-transform: capitalize;
 }
