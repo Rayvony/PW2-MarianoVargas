@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 
 <body>
-    <h1>Ejercicio 10: Insta-reciclado</h1>
+    <h1>Ejercicio 10 Insta-reciclado</h1>
 
     <?php
         if (isset($_GET['image'])) {

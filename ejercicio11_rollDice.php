@@ -4,7 +4,7 @@
 <html lang="es">
 
 <body>
-    <h1>Ejercicio 11: Lanzar dados</h1>
+    <h1>Ejercicio 11 Lanzar dados</h1>
 
     <?php
     if (isset($_POST['quantity'])) {

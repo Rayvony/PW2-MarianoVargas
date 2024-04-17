@@ -193,3 +193,21 @@ footer {
   font-size: 40px;
   text-align: center;
 }
+
+/* ejercicio 14 */
+.matriz {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.matriz td {
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.diagonal-cell {
+  color: white;
+  background-color: #880b62;
+}
