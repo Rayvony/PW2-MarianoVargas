@@ -137,3 +137,31 @@ footer {
   content: "|";
   margin: 0 10px;
 }
+
+/* ejercicio 11 */
+.ej11_dice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 2%;
+}
+
+.ej11_dice-image {
+  width: 200px;
+  height: 200px;
+}
+
+.ej11_bg {
+  background-color: black;
+  width: 150px; /* Ajusta el ancho según sea necesario */
+  height: 150px; /* Ajusta la altura según sea necesario */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ej11_score {
+  font-size: 40px;
+  text-align: center;
+}
