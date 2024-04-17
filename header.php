@@ -47,5 +47,8 @@
             <li><a <?php if(basename($_SERVER['PHP_SELF']) == 'ejercicio12.php') {
                 echo 'class="active"';
             } ?> href="ejercicio12.php">Ejercicio 12</a></li>
+            <li><a <?php if(basename($_SERVER['PHP_SELF']) == 'ejercicio13.php') {
+                echo 'class="active"';
+            } ?> href="ejercicio13.php">Ejercicio 13</a></li>
         </ul>
     </nav>

@@ -3,7 +3,7 @@
 <?php include('header.php'); ?>
 
 <body>
-    <h1>Ejercicio 12: Contador de visitas extraterrestres</h1>
+    <h1>Ejercicio 12 Contador de visitas extraterrestres</h1>
 
     <form class="form-ejercicio" action="ejercicio12_processVisitors.php" method="post">
         <label for="name">Nombre del visitante:</label>

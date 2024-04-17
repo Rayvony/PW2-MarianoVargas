@@ -4,7 +4,7 @@
 
 <body>
 
-    <h1>Ejercicio 10: Insta-reciclado</h1>
+    <h1>Ejercicio 10 Insta-reciclado</h1>
     <h2>Imágenes disponibles:</h2>
     <ul class="ej10_ul">
         <?php

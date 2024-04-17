@@ -3,7 +3,7 @@
 <?php include('header.php'); ?>
 
 <body>
-    <h1>Ejercicio 11: Lanzar dados</h1>
+    <h1>Ejercicio 11 Lanzar dados</h1>
 
     <form class="form-ejercicio" action="ejercicio11_rollDice.php" method="post">
         <label for="quantity">Cantidad de dados:</label>
