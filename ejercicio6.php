@@ -1,30 +1,29 @@
 <?php include('header.php'); ?>
 <!DOCTYPE html>
 <body>
+    <h1>Ejercicio 6 Nombre Completo</h1>
+    <div class="form-ejercicio">
+        <form action="ejercicio6.php" method="GET">
 
-<h1>Ejercicio 6 Nombre Completo</h1>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" name="nombre"><br>
 
-<form action="ejercicio6.php" method="GET">
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" name="apellido"><br>
 
-    <label for="nombre">Nombre:</label><br>
-    <input type="text" name="nombre"><br>
+            <label for="horario">Horario:</label><br>
+            <input type="text" name="horario"><br><br>
 
-    <label for="apellido">Apellido:</label><br>
-    <input type="text" name="apellido"><br>
+            <input type="radio" name="metodo" value="1">
+            <label for="metodo">Saludo Formal</label><br>
+            <input type="radio" name="metodo" value="2">
+            <label for="metodo">Saludo Informal</label><br><br>
 
-    <label for="horario">Horario:</label><br>
-    <input type="text" name="horario"><br><br>
+            <input type="submit" value="Enviar">
 
-    <input type="radio" name="metodo" value="1">
-    <label for="metodo">Saludo Formal</label><br>
-    <input type="radio" name="metodo" value="2">
-    <label for="metodo">Saludo Informal</label><br><br>
-
-    <input type="submit" value="Enviar">
-
-</form>
-<br><br>
-
+        </form>
+    </div>
+</body>
 <?php
 
 if (isset($_GET["nombre"]) && isset($_GET["apellido"]) && isset($_GET["horario"]) && isset($_GET["metodo"])) {
@@ -73,8 +72,6 @@ class Saludar {
     }
 }
 ?>
-</body>
-
 <?php include('footer.php'); ?>
 </html>
 

@@ -1,37 +1,36 @@
 <?php include('header.php'); ?>
 <!DOCTYPE html>
-<body>
+    <body>
+        <h1>Ejercicio 5 Sumatoria</h1>
+        <div class="form-ejercicio">
+            <form action="ejercicio5.php" method="GET">
 
-<body>
-<h1>Ejercicio 5 Sumatoria</h1>
-<form action="ejercicio5.php" method="GET">
+                <label for="numero1">Numero 1:</label><br>
+                <input type="text"name="numero1"><br>
 
-    <label for="numero1">Numero 1:</label><br>
-    <input type="text"name="numero1"><br>
+                <label for="numero2">Numero 2:</label><br>
+                <input type="text"name="numero2"><br>
 
-    <label for="numero2">Numero 2:</label><br>
-    <input type="text"name="numero2"><br>
+                <label for="numero3">Numero 3:</label><br>
+                <input type="text"name="numero3"><br>
 
-    <label for="numero3">Numero 3:</label><br>
-    <input type="text"name="numero3"><br>
+                <label for="numero4">Numero 4:</label><br>
+                <input type="text"name="numero4"><br>
 
-    <label for="numero4">Numero 4:</label><br>
-    <input type="text"name="numero4"><br>
+                <label for="numero5">Numero 5:</label><br>
+                <input type="text"name="numero5"><br><br>
 
-    <label for="numero5">Numero 5:</label><br>
-    <input type="text"name="numero5"><br><br>
+                <input type="radio" name="metodo" value="1">
+                <label for="metodo">For</label><br>
+                <input type="radio" name="metodo" value="2">
+                <label for="metodo">For Each</label><br>
+                <input type="radio" name="metodo" value="3">
+                <label for="metodo">While</label> <br><br>
 
-    <input type="radio" name="metodo" value="1">
-    <label for="metodo">For</label><br>
-    <input type="radio" name="metodo" value="2">
-    <label for="metodo">For Each</label><br>
-    <input type="radio" name="metodo" value="3">
-    <label for="metodo">While</label> <br><br>
-
-    <input type="submit" value="Enviar">
-</form>
-<br><br>
-</body>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
 </html>
 <?php
 error_reporting(0);

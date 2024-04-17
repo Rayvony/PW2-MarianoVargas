@@ -22,14 +22,16 @@
         ?>
     </div>
 
-<h2>Subir nueva imagen</h2>
-<form action="ejercicio9.php" method="post" enctype="multipart/form-data">
-    <label for="image">Selecciona una imagen:</label>
-    <input type="file" name="image" id="image" accept="image/*" required><br>
-    <label for="new_name">Nuevo nombre de la imagen:</label>
-    <input type="text" name="new_name" id="new_name" required><br>
-    <input type="submit" name="submit" value="Subir imagen">
-</form>
+    <h2>Subir nueva imagen</h2>
+    <div class="form-ejercicio">
+        <form action="ejercicio9.php" method="post" enctype="multipart/form-data">
+            <label for="image">Selecciona una imagen:</label>
+            <input type="file" name="image" id="image" accept="image/*" required><br><br>
+            <label for="new_name">Nuevo nombre de la imagen:</label>
+            <input type="text" name="new_name" id="new_name" required><br><br>
+            <input type="submit" name="submit" value="Subir imagen">
+        </form>
+    </div>
 
 <?php
     // Procesamiento del formulario de carga de imágenes

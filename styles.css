@@ -47,6 +47,14 @@ form {
   font-size: 15px;
 }
 
+.form-ejercicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 2% 0;
+}
+
 iframe {
   margin: 2% 0 2%;
   position: relative;

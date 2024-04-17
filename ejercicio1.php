@@ -1,25 +1,24 @@
 <?php include('header.php'); ?>
 <!DOCTYPE html>
-<body>
+    <body>
 
-<h1>Ejercicio 1 Semaforo</h1>
-<form action="ejercicio1.php" method="GET">
-    <label for="Color">Color:</label><br>
-    <input type="text" id="color" name="color"><br><br>
+        <h1>Ejercicio 1 Semaforo</h1>
+        <div class="form-ejercicio">
+            <form action="ejercicio1.php" method="GET">
+                <label for="Color">Color:</label><br>
+                <input type="text" id="color" name="color"><br><br>
 
-    <input type="radio" name="metodo" value="1">
-    <label for="metodoA">Metodo A</label><br>
-    <input type="radio" name="metodo" value="2">
-    <label for="metodoB">Metodo B</label><br>
-    <input type="radio" name="metodo" value="3">
-    <label for="metodoC">Metodo C</label> <br><br>
+                <input type="radio" name="metodo" value="1">
+                <label for="metodoA">Metodo A</label><br>
+                <input type="radio" name="metodo" value="2">
+                <label for="metodoB">Metodo B</label><br>
+                <input type="radio" name="metodo" value="3">
+                <label for="metodoC">Metodo C</label> <br><br>
 
-    <input type="submit" value="Enviar">
-</form>
-<br><br>
-
-
-</body>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
 </html>
 <?php
 error_reporting(0);

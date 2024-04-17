@@ -4,6 +4,7 @@
 
 <body>
 <h1>Ejercicio 3 Concatenar Textos</h1>
+<div class="form-ejercicio">
 <form action="ejercicio3.php" method="GET">
     <label for="texto1">Texto 1:</label><br>
     <input type="text"name="texto1"><br>
@@ -13,7 +14,7 @@
 
     <input type="submit" value="Enviar">
 </form>
-<br><br>
+</div>
 </body>
 </html>
 <?php

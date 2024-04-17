@@ -1,18 +1,16 @@
 <?php include('header.php'); ?>
 <!DOCTYPE html>
-<body>
-
-<body>
-<h1>Ejercicio 4 Incrementar</h1>
-<form action="ejercicio4.php" method="GET">
-    <label for="numero">Numero:</label><br>
-    <input type="text"name="numero"><br><br>
-
-
-    <input type="submit" value="Enviar">
-</form>
-<br><br>
-</body>
+    <body>
+    <h1>Ejercicio 4 Incrementar</h1>
+        <div class="form-ejercicio">
+        <form action="ejercicio4.php" method="GET">
+            <label for="numero">Numero:</label><br>
+            <input type="text"name="numero"><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+        </div>
+    </body>
 </html>
 <?php
 error_reporting(0);
