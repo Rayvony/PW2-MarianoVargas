@@ -11,10 +11,12 @@
         $files = scandir($dir);
         foreach ($files as $file) {
             if ($file !== '.' && $file !== '..') {
+                echo '<a href="ejercicio10_viewimage.php?image=' . urlencode($file) . '">';
                 echo '<div class="card">';
                 echo '<img src="' . $dir . $file . '" alt="' . $file . '">';
                 echo '<p>' . $file . '</p>';
                 echo '</div>';
+                echo '</a>';
             }
         }
         ?>

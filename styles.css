@@ -96,3 +96,36 @@ footer {
   text-align: center;
   text-transform: capitalize;
 }
+
+/* ejercicio 10*/
+.container_instaimg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container_instaimg p {
+  text-transform: capitalize;
+}
+.instaimg {
+  height: 60vh;
+  width: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ej10_ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.ej10_li {
+  display: inline-block;
+  text-transform: capitalize;
+}
+.ej10_li:not(:last-child):after {
+  content: "|";
+  margin: 0 10px;
+}
