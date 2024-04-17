@@ -4,7 +4,6 @@
 <body>
     <h1>Ejercicio 9 Insta-gramo</h1>
 
-    <!-- Mostrar imágenes existentes -->
     <h2>Imágenes existentes</h2>
     <div class="image-container">
         <?php
@@ -35,18 +34,18 @@ foreach ($files as $file) {
     </div>
 
     <?php
-    // Procesamiento del formulario de carga de imágenes
+
     if (isset($_POST['submit'])) {
-        $new_name = $_POST['new_name']; // Obtener el nuevo nombre de la imagen
+        $new_name = $_POST['new_name'];
         $image = $_FILES['image'];
 
-        // Verificar si se cargó una imagen
+
         if ($image['error'] === 0) {
             $image_name = $image['name'];
             $temp_name = $image['tmp_name'];
-            $target_path = "images/" . $new_name; // Usar el nuevo nombre para guardar la imagen
+            $target_path = "images/" . $new_name;
 
-            // Mover la imagen a la carpeta "imagenes" con el nombre especificado
+
             move_uploaded_file($temp_name, $target_path);
             echo "<p>Imagen subida con éxito.</p>";
             header("location:ejercicio9.php");

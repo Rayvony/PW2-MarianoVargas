@@ -2,7 +2,7 @@
 <?php include('header.php'); ?>
 
 <body>
-    <h1>Matriz y Acciones:</h1>
+    <h1>Ejercicio 14 La Matrix...digo, Matriz</h1>
     <div class="matriz-container">
         <?php
         $dimension = $_POST['dimension'] ?? 0;
